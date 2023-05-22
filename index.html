@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./img/logo.png" alt="logo da Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="informacao">
+                <img class="vector" src="./img/Vector.png" alt="vector"> 
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="retangulo-lateral">     
+            <textarea type="text" class="mensagem" cols="18" rows="10" id="myInput"></textarea>
+            <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Copyright Andressa Feijóo</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
