@@ -52,6 +52,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    box-shadow: 5px 5px 15px #49505773;
 }
 
 .mensagem{
@@ -70,36 +71,51 @@ main{
 }
 
 .btn-encriptar{
-    background: white;
+    background: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 24px;
     cursor: pointer;
     height: 67px;
     margin-left: 20px;
     width: 328px;
-    color: #0A3871;
+    color: #f8f9fa;
+    box-shadow: 5px 5px 10px #49505773;
+}
+
+.btn-encriptar:hover{
+    background: #072346;
 }
 
 .btn-desencriptar{
-    background:#c4c3f3;
-    border: 1px solid #0A3871;
+    background:#6783a8;
+    border: 1px solid #6783a8;
     border-radius: 24px;
-    color: #0A3871;
+    color: #fbfbfc;
     cursor: pointer;
     height: 67px;
     margin-left: 50px;
     width: 336px;
+    box-shadow: 5px 5px 10px #49505773;
+}
+
+.btn-desencriptar:hover{
+    background:#566d8d;
 }
 
 .btn-copiar{
-    background:#c3cdf3;
-    border: 1px solid #0A3871;
+    background:#b0ccf1;
+    border: 1px solid #b0ccf1;
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
     height: 60px;
     width: 200px;
     font-size: 25px;
+    box-shadow: 5px 5px 10px #4950573d;
+}
+
+.btn-copiar:hover{
+    background:#a0b8d8;
 }
 
 .informacao{
