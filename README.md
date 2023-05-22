@@ -1,5 +1,5 @@
 <h1 align="center"> Decodificador de Texto</h1>
-<img src="https://github.com/andressafeijoo/decodificador/assets/108043248/3de56e2a-d155-4e12-9c38-e7dc204e33db">
+<img src="https://github.com/andressafeijoo/decodificador/assets/108043248/56b277eb-b3da-494b-a012-7c84ace18fc8">
 
 # Descrição
 
