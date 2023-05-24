@@ -20,3 +20,5 @@ Trata-se de uma página onde é possível criptografar textos, sendo possível e
 **CSS**
 <br>
 **JAVASCRIPT**
+
+<img src="https://github.com/andressafeijoo/decodificador/assets/108043248/94e4dc1e-7117-4446-8970-b987f598c3c7">
